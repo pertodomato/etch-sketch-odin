@@ -1,0 +1,41 @@
+.drawingBoard{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    align-self: center;
+    flex-wrap: wrap;
+    
+}
+.content{
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    align-self: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.logo{
+    background-color: green;
+    height: 50%;
+    text-align: center;
+    padding: top 50px;
+}
+
+.blocks{
+    display: flex;
+    flex-shrink: 0;
+    flex-grow: 0;
+    background-color: white;
+    border: solid red 0px;
+}
+.options{
+    background-color: green;
+    height: 50%;
+    text-align: center;
+    padding: 50px;
+}
